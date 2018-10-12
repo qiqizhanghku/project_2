@@ -75,3 +75,9 @@ write.xlsx(gee_CMP,"Output table/20181010_gee_Type.xls", sheetName = "CMP", appe
 
 gee_CMP_imp = fun_gee(data = abc_list[[1]], outcome = "HS1_C1_C_imp")
 write.xlsx(gee_CMP_imp,"Output table/20181010_gee_Type.xls", sheetName = "CMP_imp", append = T )
+
+gee_HS = fun_gee(data = abc_list[[1]], outcome = "HS")
+write.xlsx(gee_HS,"Output table/20181010_gee_Type.xls", sheetName = "HS", append = T )
+
+gee_HS_imp = fun_gee(data = abc_list[[1]], outcome = "HS_imp")
+write.xlsx(gee_HS_imp,"Output table/20181010_gee_Type.xls", sheetName = "HS_imp", append = T )
