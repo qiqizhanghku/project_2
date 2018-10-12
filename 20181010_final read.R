@@ -22,6 +22,7 @@ abc_list = readRDS("Output rds/abc_list.rds")
 setwd("D:/Dropbox/HMRF_Health seeking behaviour/R/Project 2 Preventive measures")
 
 col_newSS4_1 = which(names(abc_0_15[[1]])=="newSS4_1") #24
+col_HS2B_1 = which( names(abc_0_15[[1]])=="HS2B_1") 
 col_HS2B_1_imp = which( names(abc_0_15[[1]])=="HS2B_1_imp") 
 col_HS_imp = which( names(abc_0_15[[1]])=="HS_imp") # 101
 col_HS = which( names(abc_0_15[[1]])=="HS") # 67
